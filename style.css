@@ -1,0 +1,255 @@
+/*==================== GERAL ======================*/
+
+:root {
+  font-size: 62.5%;
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.pageColor {
+  background-color: var(--body-background)
+}
+
+/*==================== NAV HEADER ======================*/
+body .headerStyle {
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.headerStyle .navStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 5.7rem;
+  padding-bottom: 9.0rem;
+  padding-inline: 8.2rem;
+}
+
+.headerStyle .navStyle .linksNavStyle {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+
+}
+
+.headerStyle .navStyle .linksNavStyle a {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-decoration: none;
+  color: var(--text-color);
+
+  /* padding-top: 1.9rem; */
+  height: 2.4rem;
+
+}
+
+.headerStyle .navStyle button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+}
+
+
+/*==================== SECTION HEADER ======================*/
+
+section.sectionStyle {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  padding-inline: 8.2rem;
+  justify-items: center;
+
+}
+
+section.sectionStyle .divOneSection {
+  font-size: 1.8rem;
+  text-align: left;
+ 
+
+  width: 40rem;
+  height: 8.8rem;
+}
+
+section.sectionStyle .divOneSection div:nth-child(2) {
+  display: flex;
+
+  padding-top: 5.5rem;
+  
+}
+
+section.sectionStyle .divOneSection .paragraphOneSection {
+  display: flex;
+  flex-direction: column;
+
+}
+
+section.sectionStyle .divOneSection .paragraphOneSection p:nth-child(1) {
+  display: block;
+  font-weight: 700;
+  
+}
+
+section.sectionStyle .divTwoSection {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+
+  width: 59rem;
+}
+
+section.sectionStyle .divTwoSection h1:nth-child(2) {
+  color: var(--color-logo);
+}
+
+
+/*==================== SECTION HEADER IMAGES ======================*/
+
+
+section.sectionImages {
+  padding-inline: 8.rem;
+}
+
+section.sectionImages .imagesGalery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 6rem;
+  column-gap: 1.7rem;
+  align-self: center;
+  justify-items: center;
+  padding-inline: 8.2rem;
+ 
+  padding-top: 10rem;
+
+}
+
+section.sectionImages .imagesGalery img {
+  border: solid var(--subtitle-color) 0.3rem;
+  width: 100%;
+}
+
+/*==================== INFORMATIONS ======================*/
+.information {
+padding-top: 8.3rem;
+display: flex;
+
+}
+
+.information .campA h2{
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 6.1rem;
+  
+}
+
+.information .campA p {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--subtitle-color);
+ 
+}
+
+.information .campA {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  width: 25%;
+
+  padding-top: 12rem;
+
+  border-right: solid var(--subtitle-color) 0.1rem;
+  border-bottom: solid var(--subtitle-color) 0.1rem;
+
+}
+
+.information .campB {
+  display: flex;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: left;
+  justify-content: space-around;
+  padding-bottom: 16rem;
+  height: 60%;
+}
+
+.information .campB .textCampB {
+  width: 50rem;
+  height: 11rem;
+ 
+
+}
+
+.information .campB .textCampB div a {
+  line-height: 15rem;
+
+}
+
+.information .campB .textCampB a {
+  color: white;
+}
+
+.information .campB .textCampB span {
+  color: var(--color-logo);
+  text-decoration: underline;
+}
+
+.information .campB .textCampB {
+  padding-top: 7rem;
+
+  
+}
+
+.information .rightSideInformations img {
+ width: 100%;
+  height: 40%;
+}
+
+.information .campC {
+  padding-top: 7.1rem;
+  height: 40%;
+}
+
+.information .rightSideInformations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 85%;
+  height: 100%;
+  
+}
+
